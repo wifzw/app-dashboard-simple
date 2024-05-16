@@ -1,0 +1,13 @@
+version: '3'
+services:
+  project-postgres:
+    image: "postgres:9.6.1"
+    ports:
+      - "5400:5432"
+    environment:
+      POSTGRES_USER: "admin"
+      POSTGRES_PASSWORD: "admin"
+      POSTGRES_DB: "projectDB"
+      
+    volumes:
+      - ./docker-entrypoint-initdb.d/docker_postgres_init.sql:/docker-entrypoint-initdb.d/docker_postgres_init.sql

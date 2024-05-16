@@ -1,0 +1,32 @@
+// [#] Configuration Variables Global SCSS [Vuetify]
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import './style.scss';
+
+// ---------------------------VARIABLES----------------------------
+$body-font-family: 'Poppins' !important;
+$heading-font-family: 'Poppins';
+$font-family:'Poppins' !important;
+$font-size-root: 16px !important;
+$text-field-enclosed-details-padding: 0 !important;
+$text-field-padding-top: 0 !important;
+$text-field-padding-bottom: .75rem !important;
+$input-max-height: 2.5rem !important;
+$toolbar-content-padding-x: 0 !important;
+$icon-size: 1.1875rem !important;
+$list-item-icon-margin: 16px 8px !important;
+$list-group-no-action-item-padding: 60px !important;
+$btn-round-border-radius: 0 !important;
+$btn-rounded-border-radius: 0 !important;
+$btn-border-radius: 0 !important;
+$list-item-title-font-size: .875rem !important;
+$list-item-subtitle-font-size: .75rem !important;
+// ----------------------------------------------------------------
+
+
+.v-text-field {
+  padding-top: $text-field-padding-top;
+  padding-bottom: $text-field-padding-bottom;
+  margin-top: 0 !important; 
+}
+

@@ -1,0 +1,32 @@
+// ---------------------------VARIABLES----------------------------
+$background-color: #f8f8f8;
+$card-background-color: #ffffff;
+$card-max-width: 56.25rem;
+$card-max-height: 37.5rem;
+$card-padding: 4.6875rem;
+$card-border-radius: 1.5625rem;
+$card-box-shadow: 0 15px 257px 15px rgba(0,0,0,.05);
+// ---------------------------VARIABLES----------------------------
+
+
+.container-register {
+	min-width: 200px;
+	width: 100%;
+	height: 100%;
+	background-color: var(--v-mainBg-base) !important;
+}
+
+.card-container {
+	padding: $card-padding;
+
+	border-radius: $card-border-radius !important;
+	background-color: $card-background-color;
+
+	a {
+		text-decoration: none;
+	}
+
+	@media screen and (max-width: 960px) {
+		padding: 2.5rem 0
+	}
+}
